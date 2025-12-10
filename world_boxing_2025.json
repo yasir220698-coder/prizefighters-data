@@ -1,85 +1,115 @@
-      "height": 180,
-      "reach": 183,
+{
+  "league_name": "World Champion Boxing 2025",
+  "weight_classes": [
+    { "id": 1, "name": "Flyweight", "min": 108, "max": 112 },
+    { "id": 2, "name": "Bantamweight", "min": 112, "max": 118 },
+    { "id": 3, "name": "Featherweight", "min": 118, "max": 126 },
+    { "id": 4, "name": "Lightweight", "min": 126, "max": 135 },
+    { "id": 5, "name": "Welterweight", "min": 135, "max": 147 },
+    { "id": 6, "name": "Middleweight", "min": 147, "max": 160 },
+    { "id": 7, "name": "Light Heavyweight", "min": 160, "max": 175 },
+    { "id": 8, "name": "Cruiserweight", "min": 175, "max": 200 },
+    { "id": 9, "name": "Heavyweight", "min": 200, "max": 300 }
+  ],
+  "fighters": [
+    {
+      "id": 1,
+      "name": "Kenji Sato",
+      "age": 26,
+      "weight_class": 1,
+      "power": 75,
+      "speed": 85,
+      "stamina": 82,
+      "chin": 74,
+      "technique": 88
+    },
+    {
+      "id": 2,
+      "name": "Luis Ortega",
+      "age": 27,
+      "weight_class": 2,
+      "power": 80,
+      "speed": 83,
+      "stamina": 81,
+      "chin": 78,
+      "technique": 84
+    },
+    {
+      "id": 3,
+      "name": "Jamal Carter",
+      "age": 28,
+      "weight_class": 3,
+      "power": 82,
+      "speed": 86,
+      "stamina": 84,
+      "chin": 79,
+      "technique": 85
+    },
+    {
+      "id": 4,
+      "name": "Marco DeLuca",
+      "age": 29,
+      "weight_class": 4,
+      "power": 87,
+      "speed": 80,
+      "stamina": 83,
+      "chin": 84,
+      "technique": 82
+    },
+    {
+      "id": 5,
+      "name": "Derrick Johnson",
+      "age": 30,
       "weight_class": 5,
-      "power": 90,
-      "speed": 82,
-      "stamina": 88,
-      "chin": 87,
-      "technique": 84,
-      "record": { "win": 34, "loss": 3, "draw": 0 },
-      "champion": true
+      "power": 89,
+      "speed": 80,
+      "stamina": 86,
+      "chin": 85,
+      "technique": 81
     },
     {
       "id": 6,
       "name": "Alejandro Ruiz",
-      "nickname": "La Sombra",
       "age": 31,
-      "height": 183,
-      "reach": 185,
       "weight_class": 6,
-      "power": 91,
-      "speed": 80,
-      "stamina": 86,
-      "chin": 88,
-      "technique": 87,
-      "record": { "win": 32, "loss": 2, "draw": 1 },
-      "champion": true
+      "power": 90,
+      "speed": 78,
+      "stamina": 84,
+      "chin": 86,
+      "technique": 83
     },
     {
       "id": 7,
       "name": "Viktor Kozlov",
-      "nickname": "Hammer",
       "age": 32,
-      "height": 187,
-      "reach": 190,
       "weight_class": 7,
-      "power": 93,
-      "speed": 78,
-      "stamina": 84,
-      "chin": 90,
-      "technique": 85,
-      "record": { "win": 35, "loss": 3, "draw": 0 },
-      "champion": true
+      "power": 92,
+      "speed": 76,
+      "stamina": 83,
+      "chin": 88,
+      "technique": 80
     },
     {
       "id": 8,
       "name": "Anthony Brooks",
-      "nickname": "Destroyer",
       "age": 33,
-      "height": 191,
-      "reach": 195,
       "weight_class": 8,
-      "power": 95,
-      "speed": 76,
+      "power": 94,
+      "speed": 75,
       "stamina": 82,
-      "chin": 92,
-      "technique": 83,
-      "record": { "win": 37, "loss": 4, "draw": 0 },
-      "champion": true
+      "chin": 90,
+      "technique": 79
     },
     {
       "id": 9,
       "name": "Ivan Petrov",
-      "nickname": "The Bear",
       "age": 34,
-      "height": 198,
-      "reach": 205,
       "weight_class": 9,
-      "power": 98,
-      "speed": 74,
+      "power": 97,
+      "speed": 73,
       "stamina": 80,
-      "chin": 96,
-      "technique": 82,
-      "record": { "win": 40, "loss": 2, "draw": 0 },
-      "champion": true
+      "chin": 94,
+      "technique": 78
     }
-  ],
-  "gyms": [
-    { "id": 1, "name": "World Elite Gym", "bonus": "technique" },
-    { "id": 2, "name": "Iron Fist Factory", "bonus": "power" }
-  ],
-  "rings": [
-    { "id": 1, "name": "World Championship Arena", "size": "large" },
-    { "id": 2, "name": "National Fight Dome", "size": "standard" }
   ]
 }
