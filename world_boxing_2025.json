@@ -12,104 +12,14 @@
     { "id": 9, "name": "Heavyweight", "min": 200, "max": 300 }
   ],
   "fighters": [
-    {
-      "id": 1,
-      "name": "Kenji Sato",
-      "age": 26,
-      "weight_class": 1,
-      "power": 75,
-      "speed": 85,
-      "stamina": 82,
-      "chin": 74,
-      "technique": 88
-    },
-    {
-      "id": 2,
-      "name": "Luis Ortega",
-      "age": 27,
-      "weight_class": 2,
-      "power": 80,
-      "speed": 83,
-      "stamina": 81,
-      "chin": 78,
-      "technique": 84
-    },
-    {
-      "id": 3,
-      "name": "Jamal Carter",
-      "age": 28,
-      "weight_class": 3,
-      "power": 82,
-      "speed": 86,
-      "stamina": 84,
-      "chin": 79,
-      "technique": 85
-    },
-    {
-      "id": 4,
-      "name": "Marco DeLuca",
-      "age": 29,
-      "weight_class": 4,
-      "power": 87,
-      "speed": 80,
-      "stamina": 83,
-      "chin": 84,
-      "technique": 82
-    },
-    {
-      "id": 5,
-      "name": "Derrick Johnson",
-      "age": 30,
-      "weight_class": 5,
-      "power": 89,
-      "speed": 80,
-      "stamina": 86,
-      "chin": 85,
-      "technique": 81
-    },
-    {
-      "id": 6,
-      "name": "Alejandro Ruiz",
-      "age": 31,
-      "weight_class": 6,
-      "power": 90,
-      "speed": 78,
-      "stamina": 84,
-      "chin": 86,
-      "technique": 83
-    },
-    {
-      "id": 7,
-      "name": "Viktor Kozlov",
-      "age": 32,
-      "weight_class": 7,
-      "power": 92,
-      "speed": 76,
-      "stamina": 83,
-      "chin": 88,
-      "technique": 80
-    },
-    {
-      "id": 8,
-      "name": "Anthony Brooks",
-      "age": 33,
-      "weight_class": 8,
-      "power": 94,
-      "speed": 75,
-      "stamina": 82,
-      "chin": 90,
-      "technique": 79
-    },
-    {
-      "id": 9,
-      "name": "Ivan Petrov",
-      "age": 34,
-      "weight_class": 9,
-      "power": 97,
-      "speed": 73,
-      "stamina": 80,
-      "chin": 94,
-      "technique": 78
-    }
+    { "id": 1, "name": "Kenji Sato", "age": 26, "weight_class": 1, "str": 75, "spd": 85, "stm": 82, "end": 80, "chn": 74 },
+    { "id": 2, "name": "Luis Ortega", "age": 27, "weight_class": 2, "str": 80, "spd": 83, "stm": 81, "end": 80, "chn": 78 },
+    { "id": 3, "name": "Jamal Carter", "age": 28, "weight_class": 3, "str": 82, "spd": 86, "stm": 84, "end": 82, "chn": 79 },
+    { "id": 4, "name": "Marco DeLuca", "age": 29, "weight_class": 4, "str": 87, "spd": 80, "stm": 83, "end": 83, "chn": 84 },
+    { "id": 5, "name": "Derrick Johnson", "age": 30, "weight_class": 5, "str": 89, "spd": 80, "stm": 86, "end": 84, "chn": 85 },
+    { "id": 6, "name": "Alejandro Ruiz", "age": 31, "weight_class": 6, "str": 90, "spd": 78, "stm": 84, "end": 85, "chn": 86 },
+    { "id": 7, "name": "Viktor Kozlov", "age": 32, "weight_class": 7, "str": 92, "spd": 76, "stm": 83, "end": 86, "chn": 88 },
+    { "id": 8, "name": "Anthony Brooks", "age": 33, "weight_class": 8, "str": 94, "spd": 75, "stm": 82, "end": 87, "chn": 90 },
+    { "id": 9, "name": "Ivan Petrov", "age": 34, "weight_class": 9, "str": 97, "spd": 73, "stm": 80, "end": 88, "chn": 94 }
   ]
 }
