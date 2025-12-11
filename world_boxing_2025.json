@@ -12,7 +12,6 @@
   "targetWeight": 0.0,
   "reach": 80.0,
   "hand": 0,
-  "fightingStyle": "Out Boxer",
   "potential": 99.0,
 
   "appearance": {
@@ -37,18 +36,18 @@
   },
 
   "attributes": {
-    "STR": 14,
+    "STR": 10,
     "SPD": 20,
-    "STM": 18,
+    "STM": 19,
     "END": 18,
-    "CHN": 17,
+    "CHN": 16,
 
     "jab": 20,
-    "cross": 16,
-    "leadHook": 13,
-    "rearHook": 14,
-    "leadUppercut": 11,
-    "rearUppercut": 12
+    "cross": 15,
+    "leadHook": 10,
+    "rearHook": 9,
+    "leadUppercut": 8,
+    "rearUppercut": 8
   },
 
   "skills": [
@@ -57,19 +56,18 @@
     "ElusiveMovement",
     "LongJabMaster",
     "RingGeneralship",
-    "CounterSpecialist",
-    "SharpReflexes"
+    "CounterSpecialist"
   ],
 
   "stats": {
-    "headVsBody": 84.0,
-    "singleVsCombo": 52.0,
-    "powerVsSpeed": 20.0,
-    "insideVsOutside": 78.0,
-    "blockVsDodge": 85.0,
-    "slowVsQuick": 95.0,
-    "counterVsAggressive": [80.0, 55.0],
-    "cautiousVsReckless": [70.0, 40.0]
+    "headVsBody": 90.0,
+    "singleVsCombo": 45.0,
+    "powerVsSpeed": 10.0,
+    "insideVsOutside": 95.0,
+    "blockVsDodge": 90.0,
+    "slowVsQuick": 98.0,
+    "counterVsAggressive": [85.0, 40.0],
+    "cautiousVsReckless": [80.0, 20.0]
   },
 
   "record": {
@@ -92,41 +90,13 @@
     "leveledUp": false,
     "health": 100,
     "energy": 100,
-    "gym": 16,
-    "selectedTraining": 0,
-    "trainingType": 0,
-    "trainingComplete": false,
-    "weeksToTrain": 0,
-    "weeksRested": 0,
-    "punchesThrown": 0,
-    "punchesLanded": 0,
-    "punchesTaken": 0,
-    "knockdowns": 0,
-    "knockedDown": 0,
-    "titlesWon": 0,
-    "titlesDefended": 0,
-    "currentRating": 0,
-    "highestRating": 0,
-    "lowestDifficulty": 0
+    "gym": 16
   },
 
   "nextFight": {
     "date": { "year": 0, "month": 0, "week": 0, "day": 0 },
-    "redCorner": 0,
-    "blueCorner": 0,
-    "maxWeight": 0.0,
-    "roundLength": 0,
-    "roundCount": 0,
-    "knockdowns": 0,
-    "prizePool": 0,
-    "split": 0.0,
     "titleFight": false,
-    "beltIds": [],
-    "tid": 0,
-    "tRound": 0,
-    "winner": 0,
-    "round": 0,
-    "result": 0
+    "beltIds": []
   },
 
   "fightHistory": [],
