@@ -1,80 +1,90 @@
 {
-  "id": 101,
-  "firstName": "Naoya",
-  "lastName": "Inoue",
-  "nickName": "\"The Monster\"",
+  "id": 103,
+  "firstName": "Muhammad",
+  "lastName": "Ali",
+  "nickName": "\"The Greatest\"",
   "placement": 0,
-  "hometown": "Zama, Kanagawa",
-  "country": "JP",
-  "birthMonth": 4,
-  "age": 32,
-  "weight": 118.0,
+  "hometown": "Louisville, Kentucky",
+  "country": "US",
+  "birthMonth": 1,
+  "age": 25,
+  "weight": 212.0,
   "targetWeight": 0.0,
-  "reach": 71.0,
+  "reach": 80.0,
   "hand": 0,
-  "fightingStyle": "Boxer puncher",
-  "potential": 95.0,
+  "fightingStyle": "Out Boxer",
+  "potential": 99.0,
+
   "appearance": {
-    "skinColor": "F6C899",
-    "hairStyle": 25,
-    "hairColor": "2A1A18",
+    "skinColor": "CEA575",
+    "hairStyle": "Short",
+    "hairColor": "1A1A1A",
     "facialHair": "Clean",
-    "facialHairColor": "DBE0E7",
-    "eyebrowColor": "2A1A18",
+    "facialHairColor": "1A1A1A",
+    "eyebrowColor": "1A1A1A",
     "eyeColor": "3B2424",
-    "glovesColor": "C22E3A",
+    "glovesColor": "1C84CB",
     "tapeColor": "FFFFFF",
     "trunksColor": "FFFFFF",
-    "stripeColor": "C22E3A",
-    "waistColor": "C22E3A",
+    "stripeColor": "000000",
+    "waistColor": "000000",
     "tagColor": "F5AB44",
-    "shoesColor": "181818",
-    "lacesColor": "DBE0E7",
+    "shoesColor": "000000",
+    "lacesColor": "FFFFFF",
     "collarColor": "A3ACBD",
     "soleColor": "DBE0E7",
     "mouthguardColor": "77202D"
   },
+
   "attributes": {
-    "STR": 19,
-    "SPD": 18,
-    "STM": 17,
-    "END": 17,
-    "CHN": 16,
-    "jab": 17,
-    "cross": 19,
-    "leadHook": 17,
-    "rearHook": 18,
-    "leadUppercut": 16,
-    "rearUppercut": 18
+    "STR": 14,
+    "SPD": 20,
+    "STM": 18,
+    "END": 18,
+    "CHN": 17,
+
+    "jab": 20,
+    "cross": 16,
+    "leadHook": 13,
+    "rearHook": 14,
+    "leadUppercut": 11,
+    "rearUppercut": 12
   },
-  "skills": [],
+
+  "skills": [
+    "FloatLikeAButterfly",
+    "FastFeet",
+    "ElusiveMovement",
+    "LongJabMaster",
+    "RingGeneralship",
+    "CounterSpecialist",
+    "SharpReflexes"
+  ],
+
   "stats": {
-    "headVsBody": 62.0,
-    "singleVsCombo": 58.0,
-    "powerVsSpeed": 60.0,
-    "insideVsOutside": 48.0,
-    "blockVsDodge": 52.0,
-    "slowVsQuick": 72.0,
-    "counterVsAggressive": [70.0, 80.0],
-    "cautiousVsReckless": [68.0, 35.0]
+    "headVsBody": 84.0,
+    "singleVsCombo": 52.0,
+    "powerVsSpeed": 20.0,
+    "insideVsOutside": 78.0,
+    "blockVsDodge": 85.0,
+    "slowVsQuick": 95.0,
+    "counterVsAggressive": [80.0, 55.0],
+    "cautiousVsReckless": [70.0, 40.0]
   },
+
   "record": {
-    "wins": 27,
+    "wins": 29,
     "losses": 0,
     "draws": 0,
-    "knockouts": 24
+    "knockouts": 23
   },
+
   "careerData": {
-    "rankScore": 950,
-    "P4PScore": 98.0,
-    "fans": 1000000,
-    "money": 10000000,
-    "contract": {
-      "year": 0,
-      "month": 0,
-      "week": 0,
-      "day": 0
-    },
+    "rankScore": 985,
+    "P4PScore": 99.0,
+    "fans": 3000000,
+    "money": 20000000,
+    "contract": { "year": 0, "month": 0, "week": 0, "day": 0 },
     "split": 0,
     "autoRenew": false,
     "level": 0,
@@ -99,13 +109,9 @@
     "highestRating": 0,
     "lowestDifficulty": 0
   },
+
   "nextFight": {
-    "date": {
-      "year": 0,
-      "month": 0,
-      "week": 0,
-      "day": 0
-    },
+    "date": { "year": 0, "month": 0, "week": 0, "day": 0 },
     "redCorner": 0,
     "blueCorner": 0,
     "maxWeight": 0.0,
@@ -122,6 +128,7 @@
     "round": 0,
     "result": 0
   },
+
   "fightHistory": [],
   "isAmateur": false,
   "isRetired": false
