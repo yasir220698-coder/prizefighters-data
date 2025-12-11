@@ -1,73 +1,88 @@
 {
   "id": 102,
-  "firstName": "Oleksandr",
-  "lastName": "Usyk",
-  "nickName": "\"The Cat\"",
+  "firstName": "Mike",
+  "lastName": "Tyson",
+  "nickName": "\"Iron Mike\"",
   "placement": 0,
-  "hometown": "Simferopol",
-  "country": "UA",
-  "birthMonth": "Out Boxer",
-  "age": 37,
-  "weight": 220.0,
+  "hometown": "Brooklyn, New York",
+  "country": "US",
+  "birthMonth": 6,
+  "age": 21,
+  "weight": 218.0,
   "targetWeight": 0.0,
-  "reach": 78.0,
+  "reach": 71.0,
   "hand": 0,
-  "fightingStyle": 1,
-  "potential": 95.0,
+  "fightingStyle": "in fighter",
+  "potential": 99.0,
+
   "appearance": {
-    "skinColor": "E0B98A",
+    "skinColor": "C6864A",
     "hairStyle": "Short",
-    "hairColor": "3B2B22",
-    "facialHair": "Goatee",
-    "facialHairColor": "3B2B22",
-    "eyebrowColor": "3B2B22",
-    "eyeColor": "3C2D2D",
-    "glovesColor": "183FBC",
+    "hairColor": "0F0F0F",
+    "facialHair": "Clean",
+    "facialHairColor": "0F0F0F",
+    "eyebrowColor": "0F0F0F",
+    "eyeColor": "3B2424",
+    "glovesColor": "C22E3A",
     "tapeColor": "FFFFFF",
-    "trunksColor": "183FBC",
-    "stripeColor": "FFD700",
-    "waistColor": "FFD700",
+    "trunksColor": "000000",
+    "stripeColor": "FFFFFF",
+    "waistColor": "FFFFFF",
     "tagColor": "F5AB44",
-    "shoesColor": "181818",
-    "lacesColor": "DBE0E7",
+    "shoesColor": "000000",
+    "lacesColor": "FFFFFF",
     "collarColor": "A3ACBD",
     "soleColor": "DBE0E7",
     "mouthguardColor": "77202D"
   },
+
   "attributes": {
-    "STR": 15,
+    "STR": 20,
     "SPD": 18,
-    "STM": 19,
-    "END": 18,
-    "CHN": 17,
-    "jab": 19,
-    "cross": 17,
-    "leadHook": 16,
-    "rearHook": 15,
-    "leadUppercut": 14,
-    "rearUppercut": 15
+    "STM": 17,
+    "END": 17,
+    "CHN": 18,
+
+    "jab": 14,
+    "cross": 18,
+    "leadHook": 19,
+    "rearHook": 20,
+    "leadUppercut": 19,
+    "rearUppercut": 20
   },
-  "skills": [],
+
+  "skills": [
+    "PeekABooDefense",
+    "BodySnatcher",
+    "PowerCross",
+    "ExplosiveEntry",
+    "IronMind",
+    "HeavyHands",
+    "KOArtist"
+  ],
+
   "stats": {
-    "headVsBody": 70.0,
-    "singleVsCombo": 40.0,
-    "powerVsSpeed": 28.0,
-    "insideVsOutside": 80.0,
-    "blockVsDodge": 65.0,
-    "slowVsQuick": 85.0,
-    "counterVsAggressive": [75.0, 80.0],
-    "cautiousVsReckless": [82.0, 20.0]
+    "headVsBody": 42.0,
+    "singleVsCombo": 65.0,
+    "powerVsSpeed": 82.0,
+    "insideVsOutside": 90.0,
+    "blockVsDodge": 70.0,
+    "slowVsQuick": 30.0,
+    "counterVsAggressive": [60.0, 80.0],
+    "cautiousVsReckless": [25.0, 85.0]
   },
+
   "record": {
-    "wins": 22,
+    "wins": 37,
     "losses": 0,
     "draws": 0,
-    "knockouts": 14
+    "knockouts": 33
   },
+
   "careerData": {
     "rankScore": 980,
     "P4PScore": 97.0,
-    "fans": 1500000,
+    "fans": 2500000,
     "money": 15000000,
     "contract": { "year": 0, "month": 0, "week": 0, "day": 0 },
     "split": 0,
@@ -94,6 +109,7 @@
     "highestRating": 0,
     "lowestDifficulty": 0
   },
+
   "nextFight": {
     "date": { "year": 0, "month": 0, "week": 0, "day": 0 },
     "redCorner": 0,
@@ -112,6 +128,7 @@
     "round": 0,
     "result": 0
   },
+
   "fightHistory": [],
   "isAmateur": false,
   "isRetired": false
