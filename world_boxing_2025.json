@@ -12,11 +12,11 @@
   "targetWeight": 0.0,
   "reach": 71.0,
   "hand": 0,
-  "fightingStyle": "Boxer puncher",
+  "fightingStyle": 3,
   "potential": 95.0,
   "appearance": {
     "skinColor": "F6C899",
-    "hairStyle": "Short",
+    "hairStyle": 25,
     "hairColor": "2A1A18",
     "facialHair": "Clean",
     "facialHairColor": "DBE0E7",
