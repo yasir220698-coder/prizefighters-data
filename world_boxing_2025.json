@@ -1,90 +1,80 @@
 {
-  "id": 102,
-  "firstName": "Mike",
-  "lastName": "Tyson",
-  "nickName": "\"Iron Mike\"",
+  "id": 101,
+  "firstName": "Naoya",
+  "lastName": "Inoue",
+  "nickName": "\"The Monster\"",
   "placement": 0,
-  "hometown": "Brooklyn, New York",
-  "country": "US",
-  "birthMonth": 6,
-  "age": 21,
-  "weight": 218.0,
+  "hometown": "Zama, Kanagawa",
+  "country": "JP",
+  "birthMonth": 4,
+  "age": 32,
+  "weight": 118.0,
   "targetWeight": 0.0,
   "reach": 71.0,
   "hand": 0,
-  "fightingStyle": "in fighter",
-  "potential": 99.0,
-
+  "fightingStyle": "Boxer puncher",
+  "potential": 95.0,
   "appearance": {
-    "skinColor": "C6864A",
+    "skinColor": "F6C899",
     "hairStyle": "Short",
-    "hairColor": "0F0F0F",
+    "hairColor": "2A1A18",
     "facialHair": "Clean",
-    "facialHairColor": "0F0F0F",
-    "eyebrowColor": "0F0F0F",
+    "facialHairColor": "DBE0E7",
+    "eyebrowColor": "2A1A18",
     "eyeColor": "3B2424",
     "glovesColor": "C22E3A",
     "tapeColor": "FFFFFF",
-    "trunksColor": "000000",
-    "stripeColor": "FFFFFF",
-    "waistColor": "FFFFFF",
+    "trunksColor": "FFFFFF",
+    "stripeColor": "C22E3A",
+    "waistColor": "C22E3A",
     "tagColor": "F5AB44",
-    "shoesColor": "000000",
-    "lacesColor": "FFFFFF",
+    "shoesColor": "181818",
+    "lacesColor": "DBE0E7",
     "collarColor": "A3ACBD",
     "soleColor": "DBE0E7",
     "mouthguardColor": "77202D"
   },
-
   "attributes": {
-    "STR": 20,
+    "STR": 19,
     "SPD": 18,
     "STM": 17,
     "END": 17,
-    "CHN": 18,
-
-    "jab": 14,
-    "cross": 18,
-    "leadHook": 19,
-    "rearHook": 20,
-    "leadUppercut": 19,
-    "rearUppercut": 20
+    "CHN": 16,
+    "jab": 17,
+    "cross": 19,
+    "leadHook": 17,
+    "rearHook": 18,
+    "leadUppercut": 16,
+    "rearUppercut": 18
   },
-
-  "skills": [
-    "PeekABooDefense",
-    "BodySnatcher",
-    "PowerCross",
-    "ExplosiveEntry",
-    "IronMind",
-    "HeavyHands",
-    "KOArtist"
-  ],
-
+  "skills": [],
   "stats": {
-    "headVsBody": 42.0,
-    "singleVsCombo": 65.0,
-    "powerVsSpeed": 82.0,
-    "insideVsOutside": 90.0,
-    "blockVsDodge": 70.0,
-    "slowVsQuick": 30.0,
-    "counterVsAggressive": [60.0, 80.0],
-    "cautiousVsReckless": [25.0, 85.0]
+    "headVsBody": 62.0,
+    "singleVsCombo": 58.0,
+    "powerVsSpeed": 60.0,
+    "insideVsOutside": 48.0,
+    "blockVsDodge": 52.0,
+    "slowVsQuick": 72.0,
+    "counterVsAggressive": [70.0, 80.0],
+    "cautiousVsReckless": [68.0, 35.0]
   },
-
   "record": {
-    "wins": 37,
+    "wins": 27,
     "losses": 0,
     "draws": 0,
-    "knockouts": 33
+    "knockouts": 24
   },
-
   "careerData": {
-    "rankScore": 980,
-    "P4PScore": 97.0,
-    "fans": 2500000,
-    "money": 15000000,
-    "contract": { "year": 0, "month": 0, "week": 0, "day": 0 },
+    "rankScore": 950,
+    "P4PScore": 98.0,
+    "fans": 1000000,
+    "money": 10000000,
+    "contract": {
+      "year": 0,
+      "month": 0,
+      "week": 0,
+      "day": 0
+    },
     "split": 0,
     "autoRenew": false,
     "level": 0,
@@ -109,9 +99,13 @@
     "highestRating": 0,
     "lowestDifficulty": 0
   },
-
   "nextFight": {
-    "date": { "year": 0, "month": 0, "week": 0, "day": 0 },
+    "date": {
+      "year": 0,
+      "month": 0,
+      "week": 0,
+      "day": 0
+    },
     "redCorner": 0,
     "blueCorner": 0,
     "maxWeight": 0.0,
@@ -128,7 +122,6 @@
     "round": 0,
     "result": 0
   },
-
   "fightHistory": [],
   "isAmateur": false,
   "isRetired": false
