@@ -1,82 +1,89 @@
 {
-  "id": 201,
-  "firstName": "Naoya",
-  "lastName": "Inoue",
-  "nickName": "\"The Monster\"",
+  "id": 204,
+  "firstName": "Manny",
+  "lastName": "Pacquiao",
+  "nickName": "\"Pac-Man\"",
   "placement": 1,
-  "hometown": "Zama",
-  "country": "JP",
-  "birthMonth": 4,
+  "hometown": "General Santos",
+  "country": "PH",
+  "birthMonth": 12,
   "age": 30,
-  "weight": 118.0,
+  "weight": 147.0,
   "targetWeight": 0.0,
-  "reach": 69.0,
-  "hand": 0,
+  "reach": 67.0,
+  "hand": 1,
   "fightingStyle": 3,
-  "potential": 95.0,
+  "potential": 99.0,
+
   "appearance": {
-    "skinColor": "F6C899",
+    "skinColor": "C89A6F",
     "hairStyle": "Short",
     "hairColor": "2A1A18",
-    "facialHair": "Clean",
-    "facialHairColor": "DBE0E7",
+    "facialHair": "Mustache",
+    "facialHairColor": "2A1A18",
     "eyebrowColor": "2A1A18",
     "eyeColor": "3B2424",
     "glovesColor": "C22E3A",
     "tapeColor": "FFFFFF",
-    "trunksColor": "000000",
-    "stripeColor": "C22E3A",
-    "waistColor": "C22E3A",
+    "trunksColor": "0000FF",
+    "stripeColor": "FF0000",
+    "waistColor": "FFFF00",
     "tagColor": "F5AB44",
-    "shoesColor": "181818",
-    "lacesColor": "DBE0E7",
-    "collarColor": "A3ACBD",
+    "shoesColor": "0000FF",
+    "lacesColor": "FFFFFF",
+    "collarColor": "000000",
     "soleColor": "DBE0E7",
-    "mouthguardColor": "77202D"
+    "mouthguardColor": "FFFFFF"
   },
+
   "attributes": {
     "STR": 19,
-    "SPD": 19,
-    "STM": 17,
-    "END": 17,
-    "CHN": 17,
-    "jab": 17,
-    "cross": 19,
+    "SPD": 20,
+    "STM": 19,
+    "END": 18,
+    "CHN": 18,
+
+    "jab": 16,
+    "cross": 20,
     "leadHook": 18,
-    "rearHook": 18,
+    "rearHook": 19,
     "leadUppercut": 17,
-    "rearUppercut": 19
+    "rearUppercut": 18
   },
+
   "skills": [
-    "SpeedPower",
-    "CombinationMaster",
-    "HeadHunter",
-    "BodyTargeting",
-    "CounterPuncher",
-    "Footwork",
-    "KOArtist"
+    "SouthpawSpecialist",
+    "BlitzFootwork",
+    "LightningHands",
+    "ExplosiveCombos",
+    "KOArtist",
+    "CounterRush",
+    "RelentlessPressure"
   ],
+
   "stats": {
-    "headVsBody": 55.0,
-    "singleVsCombo": 60.0,
-    "powerVsSpeed": 72.0,
+    "headVsBody": 52.0,
+    "singleVsCombo": 30.0,
+    "powerVsSpeed": 55.0,
     "insideVsOutside": 60.0,
-    "blockVsDodge": 65.0,
-    "slowVsQuick": 80.0,
-    "counterVsAggressive": [65.0, 75.0],
-    "cautiousVsReckless": [60.0, 40.0]
+    "blockVsDodge": 55.0,
+    "slowVsQuick": 95.0,
+    "counterVsAggressive": [70.0, 75.0],
+    "cautiousVsReckless": [50.0, 60.0]
   },
+
   "record": {
-    "wins": 24,
-    "losses": 0,
-    "draws": 0,
-    "knockouts": 20
+    "wins": 62,
+    "losses": 7,
+    "draws": 2,
+    "knockouts": 39
   },
+
   "careerData": {
-    "rankScore": 950,
-    "P4PScore": 98.0,
-    "fans": 800000,
-    "money": 2000000,
+    "rankScore": 999,
+    "P4PScore": 99.0,
+    "fans": 5000000,
+    "money": 30000000,
     "contract": {
       "year": 0,
       "month": 0,
@@ -107,6 +114,7 @@
     "highestRating": 0,
     "lowestDifficulty": 0
   },
+
   "nextFight": {
     "date": {
       "year": 0,
@@ -130,6 +138,7 @@
     "round": 0,
     "result": 0
   },
+
   "fightHistory": [],
   "isAmateur": false,
   "isRetired": false
