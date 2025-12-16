@@ -1,160 +1,20 @@
 {
-  "id": 2563,
-  "firstName": "Muhammad",
-  "lastName": "Yasir",
-  "nickName": "'Tripod'",
-  "placement": 0,
-  "hometown": "Venezuela",
-  "country": "ID",
-  "birthMonth": 9,
-  "age": 29,
-  "weight": 118.0,
-  "targetWeight": 118.0,
-  "reach": 71.0,
-  "hand": 0,
-  "fightingStyle": 1,
-  "potential": 94.0,
-
-  "appearance": {
-    "skinColor": "EEA160",
-    "hairStyle": "Front Spikes",
-    "hairColor": "262539",
-    "facialHair": "Goatee",
-    "facialHairColor": "472D3C",
-    "eyebrowColor": "262539",
-    "eyeColor": "1C84CB",
-    "glovesColor": "351528",
-    "tapeColor": "4E5470",
-    "trunksColor": "FFFFFF",
-    "stripeColor": "C22E3A",
-    "waistColor": "393B55",
-    "tagColor": "26B3EF",
-    "shoesColor": "EB545C",
-    "lacesColor": "102737",
-    "collarColor": "DBE0E7",
-    "soleColor": "C22E3A",
-    "mouthguardColor": "7E3E85"
-  },
-
-  "attributes": {
-    "STR": 19,
-    "SPD": 8,
-    "STM": 18,
-    "END": 18,
-    "CHN": 18,
-
-    "jab": 9,
-    "cross": 11,
-    "leadHook": 20,
-    "rearHook": 20,
-    "leadUppercut": 17,
-    "rearUppercut": 17
-  },
-
-  "skills": [
-    {
-      "id": "tier1skill6",
-      "level": 5,
-      "xp": 1200,
-      "slot": 0,
-      "leveledUp": false
-    },
-    {
-      "id": "tier2skill2",
-      "level": 5,
-      "xp": 1000,
-      "slot": 2,
-      "leveledUp": false
-    },
-    {
-      "id": "tier3skill3",
-      "level": 5,
-      "xp": 900,
-      "slot": 3,
-      "leveledUp": false
-    },
-    {
-      "id": "tier4skill1",
-      "level": 4,
-      "xp": 650,
-      "slot": 0,
-      "leveledUp": false
-    },
-    {
-      "id": "tier4skill2",
-      "level": 4,
-      "xp": 620,
-      "slot": 4,
-      "leveledUp": false
-    }
+  "weightClasses": [
+    { "id": 0, "name": "Flyweight",      "minWeight": 108, "maxWeight": 112 },
+    { "id": 1, "name": "Bantamweight",   "minWeight": 113, "maxWeight": 118 },
+    { "id": 2, "name": "Featherweight",  "minWeight": 119, "maxWeight": 126 },
+    { "id": 3, "name": "Lightweight",    "minWeight": 127, "maxWeight": 135 },
+    { "id": 4, "name": "Welterweight",   "minWeight": 136, "maxWeight": 147 },
+    { "id": 5, "name": "Middleweight",   "minWeight": 148, "maxWeight": 160 },
+    { "id": 6, "name": "Light Heavyweight","minWeight": 161, "maxWeight": 175 },
+    { "id": 7, "name": "Cruiserweight",  "minWeight": 176, "maxWeight": 200 },
+    { "id": 8, "name": "Heavyweight",    "minWeight": 201, "maxWeight": 300 }
   ],
 
-  "stats": {
-    "headVsBody": 62.0,
-    "singleVsCombo": 82.0,
-    "powerVsSpeed": 92.0,
-    "insideVsOutside": 8.0,
-    "blockVsDodge": 5.0,
-    "slowVsQuick": 3.0,
-    "counterVsAggressive": [8.0, 92.0],
-    "cautiousVsReckless": [5.0, 95.0]
-  },
-
-  "record": {
-    "wins": 26,
-    "losses": 2,
-    "draws": 1,
-    "knockouts": 18
-  },
-
-  "careerData": {
-    "rankScore": 680,
-    "P4PScore": 860.0,
-    "fans": 52000,
-    "money": 1800000,
-    "contract": {
-      "year": 0,
-      "month": 0,
-      "week": 0,
-      "day": 0
-    },
-    "split": 65,
-    "autoRenew": true,
-    "level": 5,
-    "xp": 3100,
-    "leveledUp": false,
-    "health": 100,
-    "energy": 100,
-    "gym": 48,
-    "selectedTraining": 0,
-    "trainingType": 0,
-    "trainingComplete": false,
-    "weeksToTrain": 0,
-    "weeksRested": 0,
-    "punchesThrown": 0,
-    "punchesLanded": 0,
-    "punchesTaken": 0,
-    "knockdowns": 0,
-    "knockedDown": 0,
-    "titlesWon": 3,
-    "titlesDefended": 6,
-    "currentRating": 7,
-    "highestRating": 7,
-    "lowestDifficulty": 2
-  },
-
-  "nextFight": {
-    "date": {
-      "year": 0,
-      "month": 0,
-      "week": 0,
-      "day": 0
-    },
-    "titleFight": false,
-    "beltIds": []
-  },
-
-  "fightHistory": [],
-  "isAmateur": false,
-  "isRetired": false
+  "belts": [
+    { "id": 0 },
+    { "id": 1 },
+    { "id": 2 },
+    { "id": 3 }
+  ]
 }
